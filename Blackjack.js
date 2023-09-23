@@ -22,3 +22,5 @@ function dealCards(deck, numCardsPerHand) {
 
 let playerhand = dealCards(0, 2);
 let dealerhand = dealCards(0, 2);
+console.log(`Player hand: ${playerhand}`);
+console.log(`Dealer hand: ${dealerhand[0]}`);
